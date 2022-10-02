@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#mainDiv{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+#mainDiv #header{
+    width: 100%;
+    height: 80px;
+    background-color: #311058;
+    color: #F2FFF4;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+
+#mainDiv #header h1{
+    font-size: 1.25em;
+    font-family: sans-serif;
+    padding-left: 20px;
+    color: #F2FFF4;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+
+#mainDiv #header h1:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+#mainDiv #header ul{
+    display: flex;
+    margin-right: 70px;
+}
+
+#mainDiv #header ul li{
+    margin-right: 40px;
+    font-size: 16px;
+}
+
+#mainDiv #header ul li a{
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+
+#mainDiv #header ul li a:hover{
+    color: black;
+}
+
+#mainDiv #header ul li a:hover{
+    color: gray;
+}
+
+#mainDiv #header a:nth-child(3){
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: #F06060;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+#mainDiv #header a:nth-child(3):hover{
+    background: #E91A1A;
+    transition: 0.1;
+}
+
+#mainDiv #content{
+    width: 100%;
+    height: 937px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainDiv #overlay{
+    width: 100%;
+    height: 937px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#mainDiv #overlay #container{
+    width: 1080px;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+}
+
+#mainDiv #overlay #container #part-1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+    text-transform: uppercase;
+}
+
+#mainDiv #overlay #container h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#mainDiv #overlay #container #part-2{
+    width: 1080px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    /* background: blue; */
+}
+
+#mainDiv #overlay #container #part-3{
+    width: 100%;
+    height: 100px;
+    /* background: #311058; */
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #overlay #container #part-3 a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: #F13F68;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+    position: absolute;
+    top: 0px;
+}
+
+#mainDiv #overlay #container #part-3 a:hover{
+    background: #D40F3D;
+    transition: 0.1;
+}
+
+#mainDiv #overlay #container_2{
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    top: 550px;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mainDiv #overlay #container_2 #boxes{
+    width: 980px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#mainDiv #overlay #container_2 #boxes #box1{
+    width: 120px;
+    height: 120px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainDiv #overlay #container_2 #boxes #text p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-top: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-left: -15px;
+    
+}
+
+#mainDiv #about{
+    width: 100%;
+    height: 1019px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #about #container_about{
+    width: 1080px;
+    height: 900px;
+    /* background-color: red; */
+}
+
+#mainDiv #about #container_about #part_1_about{
+    width: 100%;
+    height: 150px;
+    /* background: blue; */
+    display: flex;
+    align-items: center;
+}
+
+#mainDiv #about #container_about #part_1_about h1{
+    text-transform: uppercase;
+    font-size: 43px;
+    letter-spacing: 1px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#mainDiv #about #container_about #part_2_about{
+    width: 540px;
+    height: 670px;
+    /* background-color: #311058; */
+}
+
+#mainDiv #about #container_about #boxes_about #box1_about,#box2_about,#box3_about,#box4_about{
+    width: 100%;
+    height: 140px;
+    /* background: black; */
+    position: relative;
+}
+
+#mainDiv #about #container_about #boxes_about #box1_about #box1_part1,#box2_part1,#box3_part1,#box4_part1{
+    width: 150px;
+    height: 140px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F13F68;
+}
+
+#mainDiv #about #container_about #boxes_about #box1_about #box1_part2,#box2_part2,#box3_part2,#box4_part2{
+    width: 390px;
+    height: 20px;
+    /* background: navy; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+    letter-spacing: 1px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#mainDiv #about #container_about #boxes_about #box1_about #box1_part3,#box2_part3,#box3_part3,#box4_part3{
+    width: 390px;
+    height: 120px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* background: #F13F68; */
+    word-spacing: 3px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    color: #8C8C8C;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#mainDiv #about #container_about #part3_about{
+    width: 540px;
+    height: 670px;
+    /* background: black; */
+    position: relative;
+    top: -670px;
+    left: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #about #container_about #part3_about #hero_about{
+    width: 400px;
+    height: 535px;
+    background-image: url("../img/hero.jpg");
+}
+
+#mainDiv #about #container_about #part4_about{
+    width: 100%;
+    height: 80px;
+    /* background: #F06060; */
+    position: relative;
+    bottom: 670px;
+    display: flex;
+    justify-content: centers;
+    align-items: center;
+}
+
+#mainDiv #about #container_about #part4_about a{
+    text-decoration: none;
+    font-family: sans-serif;
+    background-color: #F06060;
+    margin-top: 10px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+    position: absolute;
+    top: 0px;
+    color: white;
+    position: absolute;
+    left: 350px;
+}
+
+#mainDiv #about #container_about #part4_about a:hover{
+    background: #D40F3D;
+}
+
+#mainDiv #about #container_about #part4_about a:last-child{
+    background-color: transparent;
+    position: absolute;
+    color: #000;
+    padding: 18px 30px;
+    letter-spacing: 2px;
+    left: 550px;
+    border: 2px solid black;
+}
+
+#mainDiv #about #container_about #part4_about a:last-child:hover{
+    background: #333333;
+    border: 2px solid transparent;
+    color: white;
+}
+
+#mainDiv #history{
+    width: 100%;
+    height: 365px;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#mainDiv #history #overlay_history{
+    width: 100%;
+    height: 365px;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #history #overlay_history #container_history{
+    width: 980px;
+    height: 300px;
+    /* background: red; */
+    text-align: right;
+}
+
+#mainDiv #history #overlay_history #container_history #part1_history{
+    width: 100%;
+    height: 150px;
+    /* background-color: blue; */
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#mainDiv #history #overlay_history #container_history #part2_history{
+    width: 100%;
+    height: 150px;
+    /* background: #D40F3D; */
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+#mainDiv #message{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #message #container_message{
+    width: 1280px;
+    height: 400px;
+    /* background: red; */
+    position: relative;
+}
+
+#mainDiv #message #container_message #part1_msg{
+    width: 640px;
+    height: 400px;
+    /* background: blue; */
+}
+
+#mainDiv #message #container_message #part1_msg #part1_msg_txt{
+    width: 100%;
+    height: 100px;
+    /* background: #E91A1A; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+#mainDiv #message #container_message #part1_msg #part2_msg_txt{
+    width: 100%;
+    height: 50px;
+    /* background: #333333; */
+    text-align: center;
+    color: #8C8C8C;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input{
+    width: 100%;
+    height: 250px;
+    /* background: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #first_input{
+    position: relative;
+    top: -100px;
+    left: 500px;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #first_input input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #second_input input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #second_input{
+    width: 500px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #third_input input{
+    width: 500px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part1_msg #part3_msg_input #third_input{
+    width: 500px;
+    position: relative;
+    top: 60px;
+    left: -505px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #d9d9d9
+}
+
+#mainDiv #message #container_message #part2_msg{
+    width: 640px;
+    height: 400px;
+    /* background: blue; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#mainDiv #message #container_message #part1_msg a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: #F06060;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: -20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    left: 230px;
+}
+
+#mainDiv #message #container_message #part1_msg a:hover{
+    background: #D40F3D;
+}
+
+#mainDiv #footer{
+    width: 100%;
+    height: 90px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bdbdbd;
+    font-family: sans-serif;
+    font-size: 18px;
+}
